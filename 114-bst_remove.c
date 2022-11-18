@@ -22,7 +22,6 @@ bst_t *bst_remove(bst_t *root, int value)
 	{
 		if (!root->left)
 		{
-	
 			tmp = root->right;
 			free(root);
 			return (tmp);
