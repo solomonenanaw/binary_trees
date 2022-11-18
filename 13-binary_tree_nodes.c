@@ -97,4 +97,3 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 
 	return (binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
 }
->>>>>>> 782ea7239292e8df1da8b8f21cf905468d2ed8ba
