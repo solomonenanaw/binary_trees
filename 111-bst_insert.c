@@ -43,6 +43,5 @@ bst_t *bst_insert(bst_t **tree, int value)
 		second->right = new;
 		new->parent = second;
 	}
-
 	return (new);
 }
